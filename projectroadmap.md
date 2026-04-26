@@ -87,6 +87,15 @@ I'll only use basic Python (functions, loops, and conditionals) to create the ga
 
 As I proceed, I'll update GitHub with my progress.
 
+# Check list
+
+- [x] Create main.py
+- [x] Add intro text
+- [x] Add room movement
+- [x] Add search function
+- [x] Add inventory
+- [x] Add timer
+
 ## Sprint 3 — Final Reflection (to be completed later)
 
 When the project is finished, I will write about:
