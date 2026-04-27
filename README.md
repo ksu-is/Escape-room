@@ -25,3 +25,12 @@ This project was created to practice Python fundamentals while building a fun an
 - Randomized item locations
 - Additional rooms
 - More endings
+
+## Current Progress (Sprint 2)
+
+- Basic game loop created
+- Player can move between rooms
+- Search function added
+- Inventory system added
+- Countdown timer added
+- Win/lose conditions added
