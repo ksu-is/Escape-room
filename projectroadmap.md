@@ -77,7 +77,7 @@ I will have a basic, functional version of the game thanks to these features.
 ### Features I may consider later
 
 - Random item locations
-- Additional rooms
+- Additional rooms 
 - More endings
 - A replay feature
   
@@ -89,12 +89,12 @@ As I proceed, I'll update GitHub with my progress.
 
 # Check list
 
-- [x] Create main.py
-- [x] Add intro text
-- [x] Add room movement
-- [x] Add search function
-- [x] Add inventory
-- [x] Add timer
+- [x] Created main.py (I set up the main game file and added the starting structure)
+- [x] Added intro text (Wrote the welcome message that explains the goal of the game)
+- [x] Added room movement (Created a function that lets the player move between the Dorm Room, Hallway, and Outside)
+- [x] Added search function (Built a search feature so the player can find keys, backpack, and shoes in different rooms)
+- [x] Added inventory (Made a list to store found items and display them when the player checks inventory)
+- [x] Added timer (Added a timer that decreases each turn and ends the game if time runs out)
 
 ## Sprint 3 — Final Reflection (to be completed later)
 
