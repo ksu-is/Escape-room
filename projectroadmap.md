@@ -96,12 +96,12 @@ As I proceed, I'll update GitHub with my progress.
 - [x] Added inventory (Made a list to store found items and display them when the player checks inventory)
 - [x] Added timer (Added a timer that decreases each turn and ends the game if time runs out)
 
-## Sprint 3 — Final Reflection (to be completed later)
+## Sprint 3 — Final Reflection (in process)
 
 When the project is finished, I will write about:
 
 - What I really created 
-- What was changed from my initial plan
-- Any difficulties I encountered
+- What was changed from my initial plan (I ended up moving the countdown timer for the game to say if you won before the time ran out or not)
+- Any difficulties I encountered 
 - What I learned  
 - What I could do better with more time
