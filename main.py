@@ -57,7 +57,6 @@ def countdown():
     time_left -= 1
     print(f"Time left: {time_left}")
 
-    # Almost Made It Ending (2 items but time runs out)
     if time_left <= 0:
         if len(inventory) == 2:
             print("You were so close! You only needed one more item to escape!")
@@ -69,14 +68,13 @@ def countdown():
 def game_loop():
     start_game()
 
-    
     while True:
 
-# Win condition
+        # ⭐ WIN CONDITION 
+        if "keys" in inventory and "backpack" in inventory and "shoes" in inventory:
+            print("\nYou found everything! You escaped the dorm on time!")
+            break
 
-if "keys" in inventory and "backpack" in inventory and "shoes" in inventory:
-    print("\nYou found everything! You escaped the dorm on time!")
-    
         show_location()
         print("\nWhat do you want to do?")
         print("1. Move")
@@ -93,8 +91,7 @@ if "keys" in inventory and "backpack" in inventory and "shoes" in inventory:
         else:
             print("Invalid choice.")
 
+        countdown()  # keep timer running each turn
 
-    
-        countdown() 
 
 game_loop()
