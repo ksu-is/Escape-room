@@ -69,6 +69,12 @@ def countdown():
 def game_loop():
     start_game()
 
+# Win condition
+
+if "keys" in inventory and "backpack" in inventory and "shoes" in inventory:
+    print("\nYou found everything! You escaped the dorm on time!")
+    
+    
     while True:
         show_location()
         print("\nWhat do you want to do?")
@@ -87,11 +93,6 @@ def game_loop():
             print("Invalid choice.")
 
 
-# Win condition
-
-if "keys" in inventory and "backpack" in inventory and "shoes" in inventory:
-    print("\nYou found everything! You escaped the dorm on time!")
-    
     
         
 
